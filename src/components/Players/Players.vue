@@ -64,7 +64,17 @@
 		display: grid
 		grid-template-columns: repeat(3, 1fr)
 		grid-gap: 100px
+		
+		@media (max-width: 991px) 
+			grid-gap: 50px
+		@media (max-width: 800px) 
+			grid-template-columns: 1fr 1fr
+		@media (max-width: 580px)
+			grid-template-columns: 1fr
 	
 	.nselect
 		margin: 20px 0
+		
+	
+	
 </style>
